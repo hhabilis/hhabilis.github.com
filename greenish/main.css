@@ -41,11 +41,18 @@ a{
 }
 .menu li{
 	width: 120px;
+	height: 38px;
 	display: inline-block;
 	float: left;
 	text-align: center;
 	box-sizing: border-box;
-	line-height: 38px;
+	padding-top: 10px;
+}
+.menu li:hover{
+	border-bottom: 5px solid #7cbe5c;
+}
+.menu li:hover a{
+	color: #7cbe5c
 }
 .menu a{
 	font-family: 'PT Sans', sans-serif;
